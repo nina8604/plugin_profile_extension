@@ -26,42 +26,48 @@ $new_fields=[
 // Функция добовляющая новые поля
 function profile_extension_new_fields_add(){
 	global $user_ID, $new_fields;
+	// проверяем админ пользователь или нет
+	if( current_user_can('manage_options') ){
 ?>
-    <h3>Дополнительные данные</h3>
-    <table class="form-table">
-    <?php
-    foreach($new_fields as $k=>$el){
-        // вариант с дешифровкой данных из БД
-		// $user_extention = Enc::my_dec(get_user_meta( $user_ID, $el, true  ));
+        <h3>Дополнительные данные</h3>
+        <table class="form-table">
+        <?php
+        foreach($new_fields as $k=>$el){
+            // вариант с дешифровкой данных из БД
+            // $user_extention = Enc::my_dec(get_user_meta( $user_ID, $el, true  ));
 
-        // вариант без дешифровки данных из БД
-        $user_extention=get_user_meta( $user_ID, $el, true );
-    ?>
-        <tr>
-            <th><label for="<?php echo $el ?>"><?php echo $k ?></label></th>
-            <td>
-                <input type="text" name="<?php echo $el ?>" value="<?php echo $user_extention ?>"><br>
-            </td>
-        </tr>
-    <?php
-    }
-	?>
-    </table>
+            // вариант без дешифровки данных из БД
+            $user_extention=get_user_meta( $user_ID, $el, true );
+        ?>
+            <tr>
+                <th><label for="<?php echo $el ?>"><?php echo $k ?></label></th>
+                <td>
+                    <input type="text" name="<?php echo $el ?>" value="<?php echo $user_extention ?>"><br>
+                </td>
+            </tr>
+        <?php
+        }
+        ?>
+        </table>
 	<?php
+	}
 }
 
 // обновление данных в БД
 function profile_extension_new_fields_update(){
 	global $user_ID, $new_fields;
-	foreach ($new_fields as $field){
-		// вариант с шифрованием данных в БД
-//		$user_field=Enc::my_enc($_POST[$field]);
+	// проверяем админ пользователь или нет
+	if( current_user_can('manage_options') ) {
+		foreach ($new_fields as $field) {
+			// вариант с шифрованием данных в БД
+			//$user_field=Enc::my_enc($_POST[$field]);
 
-		// вариант с без шифрованием данных в БД
-	    $user_field=($_POST[$field]);
+			// вариант с без шифрованием данных в БД
+			$user_field = ($_POST[$field]);
 
-		update_user_meta( $user_ID, $field, $user_field );
-    }
+			update_user_meta($user_ID, $field, $user_field);
+		}
+	}
 }
 
 // отображение списка пользователей

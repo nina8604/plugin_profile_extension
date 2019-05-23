@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebb592b-3c2b-4bb3-ae29-931d6621e8df" name="Default Changelist" comment="" />
+    <list default="true" id="0ebb592b-3c2b-4bb3-ae29-931d6621e8df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enc.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Enc.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile_extension.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,35 +19,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile_extension.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="299">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="28" />
+              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="32" />
               <folding>
                 <element signature="e#6#140#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="41" />
-              <folding>
-                <element signature="e#6#59#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../wp-admin/user-edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="772" lean-forward="true" selection-start-line="772" selection-end-line="772" />
             </state>
           </provider>
         </entry>
@@ -61,21 +45,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Enc.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="20" />
+            <state relative-caret-position="1296">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/example.php" />
+        <option value="C:/wp-admin/user-edit.php" />
         <option value="$PROJECT_DIR$/Enc.class.php" />
         <option value="$PROJECT_DIR$/profile_extension.php" />
-        <option value="$PROJECT_DIR$/example.php" />
-        <option value="$PROJECT_DIR$/../../../wp-admin/user-edit.php" />
       </list>
     </option>
   </component>
@@ -86,9 +73,10 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="84" />
     <option name="y" value="24" />
-    <option name="width" value="1752" />
-    <option name="height" value="972" />
+    <option name="width" value="1751" />
+    <option name="height" value="971" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -109,13 +97,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite.local" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,16 +144,19 @@
       <workItem from="1558169149735" duration="3828000" />
       <workItem from="1558277091346" duration="3646000" />
       <workItem from="1558326669554" duration="10524000" />
+      <workItem from="1558425415889" duration="1926000" />
+      <workItem from="1558582970350" duration="5815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34144000" />
+    <option name="totallyTimeSpent" value="41885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2722813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2845462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -175,8 +168,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32815534" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22135922" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -188,92 +181,37 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../wp-admin/user/user-edit.php">
+    <entry file="file://C:/wp-admin/user/user-edit.php" />
+    <entry file="file://C:/../../modules/php/PHP_7.2-x64/ext/php_openssl.dll" />
+    <entry file="file://C:/.htaccess" />
+    <entry file="file://C:/wp-admin/users.php" />
+    <entry file="file://C:/../../modules/php/PHP_7.2-x64/extras/ssl/openssl.cnf" />
+    <entry file="file://C:/wp-includes/pluggable.php" />
+    <entry file="file://$PROJECT_DIR$/../contact-form-7/settings.php" />
+    <entry file="file://$PROJECT_DIR$/../contact-form-7/includes/shortcodes.php" />
+    <entry file="file://$PROJECT_DIR$/example.php" />
+    <entry file="file://C:/wp-admin/user-edit.php" />
+    <entry file="file://$PROJECT_DIR$/private.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../modules/php/PHP_7.2-x64/ext/php_openssl.dll">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../wp-admin/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5075">
-          <caret line="588" selection-start-line="588" selection-end-line="588" />
-          <caret line="587" column="49" selection-start-line="587" selection-start-column="49" selection-end-line="587" selection-end-column="49" />
-          <caret line="586" selection-start-line="586" selection-end-line="586" />
-          <caret line="585" column="32" selection-start-line="585" selection-start-column="32" selection-end-line="585" selection-end-column="32" />
-          <caret line="584" selection-start-line="584" selection-end-line="584" />
-          <caret line="583" column="14" selection-start-line="583" selection-start-column="14" selection-end-line="583" selection-end-column="14" />
-          <caret line="582" column="13" selection-start-line="582" selection-start-column="13" selection-end-line="582" selection-end-column="13" />
-          <caret line="581" column="6" selection-start-line="581" selection-start-column="6" selection-end-line="581" selection-end-column="6" />
-          <caret line="580" column="20" selection-start-line="580" selection-start-column="20" selection-end-line="580" selection-end-column="20" />
-          <caret line="579" selection-start-line="579" selection-end-line="579" />
-          <caret line="578" column="7" selection-start-line="578" selection-start-column="7" selection-end-line="578" selection-end-column="7" />
-          <caret line="577" column="43" selection-start-line="577" selection-start-column="43" selection-end-line="577" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../modules/php/PHP_7.2-x64/extras/ssl/openssl.cnf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../wp-includes/pluggable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30888" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/private.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Enc.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../contact-form-7/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../contact-form-7/includes/shortcodes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="41" />
-          <folding>
-            <element signature="e#6#59#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="1296">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profile_extension.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="299">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="28" />
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="32" />
           <folding>
             <element signature="e#6#140#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../wp-admin/user-edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="772" lean-forward="true" selection-start-line="772" selection-end-line="772" />
         </state>
       </provider>
     </entry>

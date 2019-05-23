@@ -16,10 +16,12 @@ class Enc {
 		// Первый параметр – это дескриптор ключа
 		openssl_pkey_export( $res,$privKey );
 
-		// сохраняем полученный ключ в текстовый файл
-		$fpr = fopen("private.txt","w" );
-		fwrite( $fpr,$privKey );
-		fclose( $fpr );
+		// проверка, если файл не существует, то сохраняем полученный ключ в текстовый файл
+		if ( !file_exists("private.txt")){
+			$fpr = fopen("private.txt","w" );
+			fwrite( $fpr, $privKey );
+			fclose( $fpr );
+		}
 		// создадим запрос для сертификата – CSR (Certificate Signing Request)
 		// необходимо создать массив со следующими данными:
 		$arr = array(
@@ -47,9 +49,11 @@ class Enc {
 
 		$public_key_string = $public_key_details['key'];
 		// записываем открытый ключ в файл
-		$fpr1 = fopen("public.txt","w" );
-		fwrite( $fpr1, $public_key_string );
-		fclose( $fpr1 );
+		if ( !file_exists("public.txt")) {
+			$fpr1 = fopen("public.txt", "w");
+			fwrite($fpr1, $public_key_string);
+			fclose($fpr1);
+		}
 		// возвращаем массив с полученными ключами
 		return array( 'private' => $privKey, 'public' => $public_key_string );
 	}
